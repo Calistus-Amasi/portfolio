@@ -55,10 +55,11 @@
 @media screen and (max-width: 850px) {
     .hero .content h1 {
         font-size: 3rem;
+        padding: 0.2rem 0 1rem;
     }
 
     .hero .content p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .mask {
@@ -67,6 +68,14 @@
 
     .hero .content {
         top: 30%;
+    }
+
+    .hero {
+        line-height: 1.5;
+    }
+
+    .project-card {
+        padding: 1.2rem 3rem;
     }
 
 }
